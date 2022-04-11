@@ -145,7 +145,6 @@ public class Ejercicio02 {
 
 	public static void main(String[] args) {
 		int[][] mat = { { 8, 2, -3, 4 }, { 5, -6, -6, 20 }, { 21, 1, -5, 0 } };
-
 		int[][] resultado = suma_de_adyacentes(mat);
 
 		for (int i = 0; i < resultado.length; i++) {
