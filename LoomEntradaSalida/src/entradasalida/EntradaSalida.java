@@ -125,9 +125,7 @@ public class EntradaSalida {
 	public static void main(String[] args) {
 		try {
 			String nombreArchivo = generarArchivoDeNumerosAleatorios();
-			System.out.println(nombreArchivo);
 			int[] resultado = buscarMaximoMinimoPromedio(nombreArchivo);
-			System.out.println(resultado);
 			generarArchivoConResultados(resultado);
 
 		} catch (IOException e) {
